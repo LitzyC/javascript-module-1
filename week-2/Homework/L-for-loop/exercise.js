@@ -6,10 +6,12 @@
 
 */
 
-let n = 10;
+let n=10;
+let i=1;
+let sumTillNum=0;
 
-function sumTillNum(num){
-	//your code here
-}
-
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+while(i <= n){
+	sumTillNum += i;
+	console.log("Sum from 0 to " + n + " is: " + sumTillNum);
+	i++;
+}//your code here
