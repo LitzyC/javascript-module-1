@@ -13,3 +13,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+//const daysT = daysOfWeek.includes('Tuesday', 'Thursday');
+
+
+if (daysOfWeek.includes('Tuesday', 'Thursday')){
+  return  console.log("Tuesday \nThursday");
+}
+
+
