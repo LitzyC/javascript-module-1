@@ -7,11 +7,17 @@
 */
 
 let n=10;
-let i=1;
-let sumTillNum=0;
 
-while(i <= n){
-	sumTillNum += i;
-	console.log("Sum from 0 to " + n + " is: " + sumTillNum);
-	i++;
-}//your code here
+function sumTillNum(num){
+	let i=1;
+	let numero=0;
+	
+	while(i <= num){
+		numero += i;
+		//console.log("Sum from 0 to " + n + " is: " + numero);
+		i++;
+	}//your code here
+	return numero;
+}
+
+console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
