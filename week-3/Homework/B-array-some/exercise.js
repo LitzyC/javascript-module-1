@@ -24,9 +24,6 @@ var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
 let pairs = pairsByIndex.map(function(indexes) {
-  /*if (typeof indexes === null){
-    return false;
-  }*/
   let student = students[indexes[0]];
   let mentor = mentors[indexes[1]]; 
   return [student, mentor];
