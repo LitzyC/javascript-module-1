@@ -10,8 +10,7 @@ let n=10;
 let i=1;
 let sumTillNum=0;
 
-while(i <= n){
-	sumTillNum += i;
-	console.log("Sum from 0 to " + n + " is: " + sumTillNum);
-	i++;
+for (let i = 1; i <= n; i++) {
+    sumTillNum += i; 
+    console.log(`Sum from 0 to ${i}: ${sumTillNum}`);
 }//your code here
