@@ -28,7 +28,7 @@ function isShortName(sizename){
 }
 
 function startsWithD(startname){
-  if(startname.charAt(0) === startname.charAt(0).toUpperCase()){
+  if(startname.charAt(0).toUpperCase() === startname.charAt(0).toUpperCase()){
     return true;
   }
    return false;
