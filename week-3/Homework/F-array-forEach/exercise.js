@@ -11,22 +11,18 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 //PRIMERO SE DEBE DE HACER LOS MULTIPLES DE 3 Y 5 Y LUEGO EL MULTIPLE DE 3 Y AL FINAL EL MULTIPLE DE 5
 
-function multiple(){
-  for (let num=0; num <= arr.length; num++){
-    if (num % 15 == 0){
+arr.forEach((num)=>{
+  if (num % 3 === 0 && num % 5 == 0 ){
       console.log("FizzBuzz");
-    }else if (num % 3 == 0){
-      console.log("Fizz");
     }else if (num % 5 == 0){
       console.log("Buzz");
+    }else if (num % 3 == 0){
+      console.log("Fizz");
     }else
       console.log(num);
-  }
-}
+})
 
 /* EXPECTED OUTPUT */
-let array=arr.forEach(multiple);
-
 /*
 1
 2
